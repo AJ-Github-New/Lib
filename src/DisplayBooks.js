@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import LibDashboard from './LibDashboard';
+import 'bootstrap/dist/css/bootstrap.min.css';  
+
 
 class DisplayBooks extends Component {
 
@@ -38,6 +40,7 @@ class DisplayBooks extends Component {
 
       <div>
         <header className="App-header">
+
           <table className="table">
 
             <thead>
@@ -76,6 +79,7 @@ class DisplayBooks extends Component {
             }
             </tbody>
           </table>
+
         </header>
       </div>
       </div>  

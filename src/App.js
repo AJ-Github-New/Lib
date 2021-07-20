@@ -11,7 +11,9 @@ import AddBooks from './AddBooks';
 import DeleteBooks from './DeleteBooks';
 import UpdateBooks from './UpdateBooks';
 import IssuedbyStudents from './IssuedbyStudents';
-import DisplayBooks from './DisplayBooks';
+//import DisplayBooks from './DisplayBooks';
+import Bootstraptab from './Bootstraptab';
+
 function App() {
   return (
     
@@ -57,7 +59,7 @@ function App() {
               < IssuedbyStudents/>
             </Route>
             <Route exact path="/DisplayBooks">
-              < DisplayBooks/>
+              <Bootstraptab/>
             </Route>
             
             

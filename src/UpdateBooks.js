@@ -61,7 +61,7 @@ const UpdateBooks = () => {
         
 
         
-        <button onClick={()=>handleUpdatebooks()}>Add Book</button>
+        <button onClick={()=>handleUpdatebooks()}>Update Book</button>
         </div>
         </div>
 

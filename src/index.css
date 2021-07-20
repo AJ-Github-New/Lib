@@ -17,7 +17,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -44,6 +44,7 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  color:cadetblue;
 }
 
 
@@ -62,6 +63,8 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  color:cadetblue;
+
 }
 .h1
 {
@@ -136,9 +139,19 @@
   color: steelblue;
 margin-bottom: 10px;
 }
+/*
 .table ,th ,td{
   border: 1px solid steelblue;;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+    width: 50%;
+    margin-left: 400px;
+    margin-top:30px;
+    overflow-y: scroll;
+
+}
+*/
+
+.table{
+  border: 1px solid steelblue;;
+    width: 50%;
+    overflow-y: scroll;
 }

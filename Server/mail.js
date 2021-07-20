@@ -19,7 +19,7 @@ const getEmailData = (to,name,template)=>{
             data={
                 from : "Aboli Jangam <jangam.aboli717@gmail.com>",
                 to,
-                subject:`Please use the password ${Pwd} for first time login`,
+                subject:`Please use the password ${Pwd} for first time login.Once logged in please change your password for security reasons`,
                 html:pass()
                  
             }    
